@@ -1,17 +1,20 @@
-﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+
+
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript" src="js/map1.js"></script>
+
 </head>
-<body>
-    <p>When you click "Try it", a function will be called.</p>
-    <p>The function will display a message.</p>
 
-    <button onclick="myFunction()">Try it</button>
+<body onload="init()">
+<div id='wrapper'>
 
-    <p id="demo"></p>
-    <script type="text/javascript" src="js/simple.js"> </script>
+     <div id='map-canvas'></div>
+
+</div>
+
 </body>
 </html>
